@@ -26,15 +26,23 @@ function NavBar() {
             <a className="navBar_link" href="#home">
               HOME
             </a>
+          </li>
+          <li>
             <a className="navBar_link" href="#about">
               ABOUT
             </a>
+          </li>
+          <li>
             <a className="navBar_link" href="#skills">
               SKILLS
             </a>
+          </li>
+          <li>
             <a className="navBar_link" href="#project">
               PROJECT
             </a>
+          </li>
+          <li>
             <a className="navBar_link" href="#contact">
               CONTACT
             </a>
