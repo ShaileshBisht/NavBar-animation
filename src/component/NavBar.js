@@ -8,7 +8,16 @@ import gsap from "gsap";
 function NavBar() {
   useEffect(() => {
     const t1 = gsap.timeline();
-    t1.to(".navBar_bottom", { duration: 1, opacity: 1, width: "100%" });
+    t1.to(".navBar_bottom", {
+      duration: 1,
+      opacity: 1,
+      width: "100%",
+    }).from(".navBar_li", {
+      duration: 1,
+      opacity: 0,
+      x: "100px",
+      stagger: 0.2,
+    });
   }, []);
 
   return (
