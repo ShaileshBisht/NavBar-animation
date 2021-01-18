@@ -3,3 +3,15 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.navBar_left {
+  margin-left: 30px;
+}
+
+.navBar_logo > h1 {
+  color: white;
+}
+
+.navBar_right {
+  margin-right: 30px;
+}
