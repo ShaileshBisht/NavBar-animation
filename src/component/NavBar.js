@@ -24,13 +24,17 @@ function NavBar() {
         x: "200px",
         stagger: 0.2,
       })
-      .from(".navBar_close", {
-        duration: 0.5,
-        opacity: 0,
-        scale: 4,
-        x: "-1000px",
-        ease: "elastic.out(1, 0.3)",
-      });
+      .from(
+        ".navBar_close",
+        {
+          duration: 0.5,
+          opacity: 0,
+          scale: 4,
+          x: "-1000px",
+          ease: "elastic.out(1, 0.3)",
+        },
+        "-=2"
+      );
   }, [t1]);
 
   return (
