@@ -12,12 +12,21 @@ function NavBar() {
       duration: 1,
       opacity: 1,
       width: "100%",
-    }).from(".navBar_li", {
-      duration: 1,
-      opacity: 0,
-      x: "100px",
-      stagger: 0.2,
-    });
+    })
+      .from(".navBar_li", {
+        duration: 1,
+        scale: 2,
+        opacity: 0,
+        ease: "back.out(1.7)",
+        x: "200px",
+        stagger: 0.2,
+      })
+      .from(".navBar_close", {
+        duration: 0.5,
+        opacity: 0,
+        x: "-1000px",
+        ease: "bounce.out(1, 0.3)",
+      });
   }, []);
 
   return (
