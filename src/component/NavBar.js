@@ -7,10 +7,12 @@ import gsap from "gsap";
 
 function NavBar() {
   const t1 = gsap.timeline();
+
   useEffect(() => {
     t1.pause(true);
     t1.to(".navBar_bottom", {
-      duration: 0.5,
+      duration: 1,
+      ease: "back.out(1.7)",
       opacity: 1,
       width: "100%",
     })
