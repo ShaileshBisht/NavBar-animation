@@ -1,3 +1,7 @@
+.navBar {
+  position: relative;
+}
+
 .navBar_top {
   display: flex;
   align-items: center;
@@ -18,15 +22,39 @@
 
 .navBar_bottom {
   width: 100%;
+  position: absolute;
+  top: 0%;
   height: 100vh;
+  background-color: white;
+}
+
+.navBar_bottomClose {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navBar_close {
+  margin-right: 30px !important;
 }
 
 .navBar_list {
   list-style: none;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.navBar_li {
+  letter-spacing: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .navBar_link {
   text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: x-large;
 }
