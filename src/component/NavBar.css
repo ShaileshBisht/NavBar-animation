@@ -49,10 +49,13 @@
 }
 
 .navBar_li {
-  letter-spacing: 10px;
+  letter-spacing: 8px;
   margin-top: 30px;
-  margin-bottom: 30px;
+  width: 90%;
+  margin-bottom: 20px;
   opacity: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .navBar_link {
@@ -60,4 +63,12 @@
   color: black;
   font-weight: bolder;
   font-size: x-large;
+  padding: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.navBar_link:hover {
+  font-size: xx-large;
+  letter-spacing: 20px;
+  font-weight: 900;
 }
