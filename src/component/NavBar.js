@@ -3,7 +3,10 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <div className="navBar">
-      <h1>i am NavBar component</h1>
+      <div className="navBar_logo">
+        <span className="navBar_logo1"></span>
+        <span className="navBar_logo1"></span>
+      </div>
     </div>
   );
 }
