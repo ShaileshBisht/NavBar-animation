@@ -1,5 +1,7 @@
 .navBar {
   position: relative;
+  backdrop-filter: blur(40px);
+  border: 1px solid white;
 }
 
 .navBar_top {
@@ -14,6 +16,7 @@
 
 .navBar_logo > h1 {
   color: white;
+  letter-spacing: 10px;
 }
 
 .navBar_right {
