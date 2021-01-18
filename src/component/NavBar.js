@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./NavBar.css";
 import MenuIcon from "@material-ui/icons/Menu";
 import IconButton from "@material-ui/core/IconButton";
 import CloseIcon from "@material-ui/icons/Close";
+import gsap from "gsap";
 
 function NavBar() {
+  useEffect(() => {
+    const t1 = gsap.timeline();
+    t1.to(".navBar_bottom", { duration: 1, opacity: 1, width: "100%" });
+  }, []);
+
   return (
     <div className="navBar">
       <div className="navBar_top">
