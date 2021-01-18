@@ -6,8 +6,9 @@ import CloseIcon from "@material-ui/icons/Close";
 import gsap from "gsap";
 
 function NavBar() {
+  const t1 = gsap.timeline();
   useEffect(() => {
-    const t1 = gsap.timeline();
+    t1.pause(true);
     t1.to(".navBar_bottom", {
       duration: 1,
       opacity: 1,
@@ -24,10 +25,11 @@ function NavBar() {
       .from(".navBar_close", {
         duration: 0.5,
         opacity: 0,
+        scale: 4,
         x: "-1000px",
-        ease: "bounce.out(1, 0.3)",
+        ease: "elastic.out(1, 0.3)",
       });
-  }, []);
+  }, [t1]);
 
   return (
     <div className="navBar">
@@ -39,7 +41,7 @@ function NavBar() {
         </div>
         <div className="navBar_right">
           <div className="navBar_icon">
-            <IconButton aria-label="delete">
+            <IconButton aria-label="delete" onClick={(e) => t1.play()}>
               <MenuIcon fontSize="large" style={{ color: "white" }} />
             </IconButton>
           </div>
@@ -47,7 +49,11 @@ function NavBar() {
       </div>
       <div className="navBar_bottom">
         <div className="navBar_bottomClose">
-          <IconButton aria-label="delete" className="navBar_close">
+          <IconButton
+            aria-label="delete"
+            className="navBar_close"
+            onClick={(e) => t1.reverse()}
+          >
             <CloseIcon fontSize="large" style={{ color: "black" }} />
           </IconButton>
         </div>
