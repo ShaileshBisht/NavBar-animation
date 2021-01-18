@@ -20,6 +20,27 @@ function NavBar() {
           </div>
         </div>
       </div>
+      <div className="navBar_bottom">
+        <ul className="navBar_list">
+          <li>
+            <a className="navBar_link" href="#home">
+              HOME
+            </a>
+            <a className="navBar_link" href="#about">
+              ABOUT
+            </a>
+            <a className="navBar_link" href="#skills">
+              SKILLS
+            </a>
+            <a className="navBar_link" href="#project">
+              PROJECT
+            </a>
+            <a className="navBar_link" href="#contact">
+              CONTACT
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
