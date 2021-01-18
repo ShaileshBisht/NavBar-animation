@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/NavBar-animation/static/css/main.6b2a24da.chunk.css",
+    "main.js": "/NavBar-animation/static/js/main.1ab5625d.chunk.js",
+    "main.js.map": "/NavBar-animation/static/js/main.1ab5625d.chunk.js.map",
+    "runtime-main.js": "/NavBar-animation/static/js/runtime-main.b2dd1d2c.js",
+    "runtime-main.js.map": "/NavBar-animation/static/js/runtime-main.b2dd1d2c.js.map",
+    "static/js/2.872df21c.chunk.js": "/NavBar-animation/static/js/2.872df21c.chunk.js",
+    "static/js/2.872df21c.chunk.js.map": "/NavBar-animation/static/js/2.872df21c.chunk.js.map",
+    "static/js/3.922574db.chunk.js": "/NavBar-animation/static/js/3.922574db.chunk.js",
+    "static/js/3.922574db.chunk.js.map": "/NavBar-animation/static/js/3.922574db.chunk.js.map",
+    "index.html": "/NavBar-animation/index.html",
+    "static/css/main.6b2a24da.chunk.css.map": "/NavBar-animation/static/css/main.6b2a24da.chunk.css.map",
+    "static/js/2.872df21c.chunk.js.LICENSE.txt": "/NavBar-animation/static/js/2.872df21c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/NavBar-animation/static/media/compass.c00e11e4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2dd1d2c.js",
+    "static/js/2.872df21c.chunk.js",
+    "static/css/main.6b2a24da.chunk.css",
+    "static/js/main.1ab5625d.chunk.js"
+  ]
+}
