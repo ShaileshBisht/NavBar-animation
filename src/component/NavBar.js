@@ -10,7 +10,7 @@ function NavBar() {
   useEffect(() => {
     t1.pause(true);
     t1.to(".navBar_bottom", {
-      duration: 1,
+      duration: 0.5,
       opacity: 1,
       width: "100%",
     })
